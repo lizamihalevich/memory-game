@@ -1,18 +1,18 @@
 import React from "react";
 import './style.css';
 import back from './images/back.jpg';
-import first from './images/_1.jpg';
-import second from './images/_2.jpg';
-import third from './images/_3.jpg';
-import four from './images/_4.jpg';
-import five from './images/_5.jpg';
-import six from './images/_6.jpg';
-import seven from './images/_7.jpg';
-import eight from './images/_8.jpg';
-import nine from './images/_9.jpg';
-import ten from './images/_10.jpg';
-import eleven from './images/_11.jpg';
-import twelve from './images/_12.jpg';
+import first from './images/first.jpg';
+import second from './images/second.jpg';
+import third from './images/third.jpg';
+import four from './images/four.jpg';
+import five from './images/five.jpg';
+import six from './images/six.jpg';
+import seven from './images/seven.jpg';
+import eight from './images/eight.jpg';
+import nine from './images/nine.jpg';
+import ten from './images/ten.jpg';
+import eleven from './images/eleven.jpg';
+import twelve from './images/twelve.jpg';
 import ReactCardFlip from 'react-card-flip';
 
 
