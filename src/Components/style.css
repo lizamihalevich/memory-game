@@ -1,0 +1,142 @@
+.App-header {
+    text-align: center;
+    height: 70px;
+    background-color: #231123;
+    box-shadow: 0 2px 10px #7C9EB2;
+}
+
+.App-header span {
+    line-height: 70px;
+    font-weight: bold;
+    color: #ddd;
+}
+.layout {
+    margin: 50px;
+}
+
+.card-field {
+    margin: 0 auto;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    /*border: 1px solid #52528C;*/
+
+    background-color:rgba(0,0,0, 0);
+    /*text-align: center;*/
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.card img {
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    transition: 0.4s;
+}
+
+.card img:hover {
+    border: 1px solid #7C9EB2;
+    box-shadow: 0 0 20px #7C9EB2;
+    transition: 0.4s;
+}
+
+.card span {
+    line-height: 150px;
+}
+
+.timer {
+    position: absolute;
+    left: 50px;
+    top: 24px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.victory {
+    width: 600px;
+    height: 500px;
+    background-color: #231123;
+    color: #dddddd;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px #7C9EB2;
+}
+
+.btn-play-again {
+    width: 300px;
+    height: 110px;
+    line-height: 70px;
+    border: #000000;
+    background-color: #372554;
+    margin: 25px auto;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ddd;
+    box-sizing: border-box;
+}
+
+.victory-wrapper{
+    position: relative;
+}
+
+.btn-play-again:hover {
+    box-shadow: 0 0 30px #ddd;
+    transition: 0.4s;
+    border: 2px solid #ddd;
+}
+
+.victory div {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.victory div img{
+    margin-top: 20px;
+    width: 170px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: -52px;
+}
+
+.menu li{
+    height: 70px;
+    margin-right: 50px;
+    font-size: 25px;
+
+}
+.menu li a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: #dddddd;
+}
+
+.menu li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.about-app{
+    color: #fff;
+    width: 70%;
+    margin: 60px auto;
+    background-color: #231123;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px #7C9EB2;
+}
+
+.about-app div{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
