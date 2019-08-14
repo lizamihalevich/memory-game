@@ -141,16 +141,18 @@ class Layout extends React.Component {
 
         let gameStatus;
         if (this.state.pairsFound === this.state.numImages) {
-
-            gameStatus =
-                <div className="victory">
-                    <div>Congratulations!</div>
-                    <div>
-                        <img src={victory}/>
-                        <div>turns: {this.state.turnNum}</div>
+            setTimeout(function () {
+                gameStatus =
+                    <div className="victory">
+                        <div>Congratulations!</div>
+                        <div>
+                            <img src={victory}/>
+                            <div>turns: {this.state.turnNum}</div>
+                        </div>
+                        <button className="btn-play-again" onClick={()=>this.onPlayAgain(this.generateHeight(),this.generateWidth())}>Next Level</button>
                     </div>
-                    <button className="btn-play-again" onClick={()=>this.onPlayAgain(this.generateHeight(),this.generateWidth())}>Play again</button>
-                </div>
+            }, 2000)
+
 
         } else {
             gameStatus =

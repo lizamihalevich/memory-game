@@ -15,7 +15,7 @@ class Victory extends React.Component {
                 <div>
                     <img src={victory}/>
                 </div>
-                <button className="btn-play-again" onClick={()=>layout.onPlayAgain(2,4)}>Play again</button>
+                <button className="btn-play-again" onClick={()=>layout.onPlayAgain(2,4)}>Next Level</button>
             </div>
         )
     }

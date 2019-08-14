@@ -16,7 +16,6 @@ import twelve from './images/twelve.jpg';
 import ReactCardFlip from 'react-card-flip';
 
 
-
 export default class Card extends React.Component{
     constructor(props){
         super(props);
@@ -32,8 +31,8 @@ export default class Card extends React.Component{
     }
 
     render() {
-        let imgs = [first, second, third, four, five, six, seven, eight, nine, ten, eleven, twelve];
-        let pic = imgs[this.props.card.image-1];
+        let img = [first, second, third, four, five, six, seven, eight, nine, ten, eleven, twelve];
+        let pic = img[this.props.card.image-1];
 
         return (
             <div className='card'>
@@ -43,10 +42,6 @@ export default class Card extends React.Component{
                 </ReactCardFlip>
             </div>
             )
-
-
-
-
     }
 }
 

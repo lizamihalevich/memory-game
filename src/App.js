@@ -4,6 +4,7 @@ import './Components/style.css'
 import './index.css'
 import Particles from 'react-particles-js';
 import Menu from './Components/Menu';
+import Timer from "./Components/Timer";
 import AboutApp from "./Components/AboutApp";
 
 class App extends Component {
@@ -50,6 +51,7 @@ class App extends Component {
         </header>
           <ul className="menu">
               <li><a href='#/app'>App</a></li>
+              <li><Timer /></li>
               <li><a href='#/about-app'>About App</a></li>
           </ul>
           {Child}

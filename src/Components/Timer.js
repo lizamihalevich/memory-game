@@ -1,8 +1,8 @@
 import React from "react";
 
-const INTERVAL = 100;
+const INTERVAL = 59;
 
- class Timer extends React.Component {
+ export default class Timer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {value: 0};
@@ -13,7 +13,7 @@ const INTERVAL = 100;
     }
 
     componentDidMount() {
-        this.timerID = setInterval(() => this.increment(), 1000/INTERVAL);
+        this.timerID = setInterval(() => this.increment(), 10);
     }
 
     componentWillUnmount() {
@@ -24,7 +24,7 @@ const INTERVAL = 100;
         const value = this.state.value
         return (
             <div>
-                    <span>{Math.round(value/INTERVAL/60)} : </span>
+                    <span>{Math.round(value/INTERVAL/120)} : </span>
                     <span>{Math.round(value/INTERVAL)} </span>
             </div>
         );
